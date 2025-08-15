@@ -113,7 +113,7 @@ Master Node
 **Key Points**
 - Asynchronous replication: replicas receive updates from the master after they happen
 - Read Scaling: send read queries to replicas to reduce master load
-- High Availability: User `Redis Sentinel` to manage master/replica failover and monitoring
+- High Availability: Use `Redis Sentinel` to manage master/replica failover and monitoring
 
 **Redis Cluster**
 ```text
